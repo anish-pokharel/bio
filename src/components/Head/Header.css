@@ -21,3 +21,18 @@
 .header ul li a:hover {
     color: #ff014f;
 }
+
+.home-btn {
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    color: #ff014f;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.home-btn:hover {
+    background: #ff014f;
+    color: #fff;
+}
