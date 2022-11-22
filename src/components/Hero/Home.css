@@ -60,3 +60,22 @@
     font-size: 20px;
 
 }
+
+.hero_btn button img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero .right {
+    width: 40%;
+    position: relative;
+}
+
+.hero .right_img {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 10px;
+    height: 580px;
+    width: 510px;
+    margin-top: 20%;
+}
