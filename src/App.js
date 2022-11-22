@@ -5,8 +5,7 @@ import Home from "./components/Hero/Home";
 function App() {
   return (
     <>
-      <Header />;
-      <Home />
+      <Header />;{/* <Home /> */}
     </>
   );
 }
