@@ -51,3 +51,11 @@ button {
   outline: none;
   background-color: none;
 }
+
+.left {
+  width: 50%;
+}
+
+.top {
+  margin-top: 80px;
+}
