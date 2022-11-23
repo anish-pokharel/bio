@@ -11,6 +11,10 @@
     background-color: black
 }
 
+.portfolio .box:hover h2 {
+    color: black;
+}
+
 .Portfolio .img {
     height: 300px;
     overflow: hidden;
@@ -37,4 +41,18 @@
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
+}
+
+.Portfolio .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 11%;
+    transform: rotate(-45deg);
+    color: #ff014f;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Portfolio .title:hover .arrow {
+    opacity: 1;
 }
