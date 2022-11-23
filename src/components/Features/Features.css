@@ -27,3 +27,8 @@
     color: white;
     opacity: 1;
 }
+
+.content .box:hover {
+    background-color: #ff014f;
+    color: #fff;
+}
