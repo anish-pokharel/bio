@@ -1,0 +1,40 @@
+.Portfolio {
+    position: relative;
+}
+
+.Portfolio .box {
+    border-radius: 10px;
+    position: relative;
+}
+
+.Portfolio .box:hover {
+    background-color: black
+}
+
+.Portfolio .img {
+    height: 300px;
+    overflow: hidden;
+    transform: translateY(-0);
+}
+
+.Portfolio img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.Portfolio .box .img:hover img {
+    transform: scale(1.2);
+}
+
+.Portfolio .category {
+    margin: 20px 0 30px 0;
+    text-transform: uppercase;
+}
+
+.Portfolio .category span {
+    color: #ff014f;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}

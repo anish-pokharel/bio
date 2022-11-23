@@ -7,7 +7,7 @@ const Card = (props) => {
         <div className="img">
           <img src={props.image} alt="" />
         </div>
-        <div className="container d_flex">
+        <div className="category d_flex">
           <span>{props.category}</span>
           <label>
             <i className="far fa-heart"></i>
