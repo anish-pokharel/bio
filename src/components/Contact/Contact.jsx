@@ -8,6 +8,26 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+  const InputEvent = (event) => {
+    const { name, value } = event.target;
+    setData((preval) => {
+      return {
+        ...preval,
+        [name]: value,
+      };
+    });
+  };
+  const formSubmit = (event) => {
+    event.preventDefault();
+    alert(
+      `My name is ${data.fullname}. 
+	My phone number is ${data.phone}. 
+	My email address is ${data.email}. 
+	My Subject on  ${data.subject}. 
+	Here is my message I want to say : ${data.message}. 
+	`
+    );
+  };
   return (
     <>
       <section className="Contact" id="contact">
@@ -48,24 +68,44 @@ const Contact = () => {
               </div>
             </div>
             <div className="right box_shodow">
-              <form action="">
+              <form action="  " onSubmit={formSubmit}>
                 <div className="f_flex">
                   <div className="input row">
                     <span>Your Name</span>
-                    <input type="text" value={data.fullname} />
+                    <input
+                      type="text"
+                      value={data.fullname}
+                      name="fullname"
+                      onChange={InputEvent}
+                    />
                   </div>
                   <div className="input row">
                     <span>Phone Number</span>
-                    <input type="text" value={data.phone} />
+                    <input
+                      type="text"
+                      value={data.phone}
+                      name="phone"
+                      onChange={InputEvent}
+                    />
                   </div>
                 </div>
                 <div className="input ">
                   <span>EMAIL </span>
-                  <input type="text" value={data.email} />
+                  <input
+                    type="text"
+                    value={data.email}
+                    name="email"
+                    onChange={InputEvent}
+                  />
                 </div>
                 <div className="input ">
                   <span>SUBJECT </span>
-                  <input type="text" value={data.subject} />
+                  <input
+                    type="text"
+                    value={data.subject}
+                    onChange={InputEvent}
+                    name="subject"
+                  />
                 </div>
                 <div className="input ">
                   <span>YOUR MESSAGE </span>
@@ -74,6 +114,7 @@ const Contact = () => {
                     rows="10"
                     name="message"
                     value={data.message}
+                    onChange={InputEvent}
                   />
                 </div>
                 <button className="btn_shadow">
