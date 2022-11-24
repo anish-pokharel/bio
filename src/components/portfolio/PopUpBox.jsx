@@ -1,7 +1,7 @@
 import React from "react";
 
 const PopUpBox = () => {
-  return <div>PopUpBox</div>;
+  return <></>;
 };
 
 export default PopUpBox;
