@@ -118,3 +118,17 @@ input {
   border: 3px solid #e2e8ec;
   margin-bottom: 20px;
 }
+
+footer {
+  margin: 20% 0 0% 0;
+  background-color: #000;
+}
+
+
+footer p {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
