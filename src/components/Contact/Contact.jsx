@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import contact1 from "./Contact1.png";
 const Contact = () => {
+  const [data, setData] = useState({
+    fullname: "",
+    phone: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
   return (
     <>
       <section className="Contact" id="contact">
@@ -21,7 +28,7 @@ const Contact = () => {
                   <p>
                     I am available for freelance work. Connect with me via and
                     call in to my account.
-                  </p>{" "}
+                  </p>
                   <br />
                   <p>Phone: +01234567890</p>
                   <p>Email: admin@example.com</p> <br />
@@ -45,24 +52,29 @@ const Contact = () => {
                 <div className="f_flex">
                   <div className="input row">
                     <span>Your Name</span>
-                    <input type="text" />
+                    <input type="text" value={data.fullname} />
                   </div>
                   <div className="input row">
                     <span>Phone Number</span>
-                    <input type="text" />
+                    <input type="text" value={data.phone} />
                   </div>
                 </div>
                 <div className="input ">
                   <span>EMAIL </span>
-                  <input type="text" />
+                  <input type="text" value={data.email} />
                 </div>
                 <div className="input ">
                   <span>SUBJECT </span>
-                  <input type="text" />
+                  <input type="text" value={data.subject} />
                 </div>
                 <div className="input ">
                   <span>YOUR MESSAGE </span>
-                  <input type="text" />
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    name="message"
+                    value={data.message}
+                  />
                 </div>
                 <button className="btn_shadow">
                   SEND MESSAGE <i className="fa fa-long-arrow-right"></i>
