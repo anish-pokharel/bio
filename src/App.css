@@ -52,6 +52,29 @@ button {
   background-color: none;
 }
 
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+
+.btn_shadow:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+
+.box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+
+.row,
+.right,
 .left {
   width: 50%;
 }
@@ -84,4 +107,14 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 20px;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import contact1 from "./Contact1.png";
+import "./Contact.css";
 const Contact = () => {
   const [data, setData] = useState({
     fullname: "",
