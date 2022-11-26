@@ -1,0 +1,34 @@
+.Testimonal h2 {
+    margin: 15px 0 0 0;
+}
+
+.Testimonal .left {
+    width: 35%;
+    padding: 35px;
+    margin: 20px;
+}
+
+.Testimonal .right {
+    width: 65%;
+    padding: 0 0 0 50px;
+    margin: 0 20px 0 0;
+}
+
+.Testimonal .quote i {
+    font-size: 150px;
+    opacity: 0.1;
+}
+
+.Testimonal .content {
+    padding: 50px;
+}
+
+.Testimonial .content h1 {
+    font-weight: 500;
+}
+
+.Testimonial .content h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}

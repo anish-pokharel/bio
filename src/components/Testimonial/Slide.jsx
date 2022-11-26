@@ -4,11 +4,9 @@ import TestimonialAPI from "../Testimonial/TestimonialAPI";
 const Slide = ({ id, image, design, name, officer, post, date, desc }) => {
   return (
     <>
-      <article>
+      <article className="d_flex">
         <div className="left box_shodow">
-          <div className="img">
-            <img src={image} alt="" />
-          </div>
+          <div className="img">{/* <img src={image} alt="" /> */}</div>
           <div className="details mtop">
             <span className="primary_color">{design}</span>
             <h2>{name}</h2>
