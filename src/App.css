@@ -14,6 +14,7 @@
 
 body {
   font-family: "Poopins", sans-serif;
+  background: #ecf0f3;
 }
 
 
@@ -44,6 +45,10 @@ li {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 button {
@@ -107,6 +112,10 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+}
+
+p {
+  color: #3c3e41;
 }
 
 textarea,

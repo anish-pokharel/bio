@@ -23,12 +23,54 @@
     padding: 50px;
 }
 
-.Testimonial .content h1 {
+.Testimonal .content h1 {
     font-weight: 500;
 }
 
-.Testimonial .content h3 {
+.Testimonal .content h3 {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 40px;
+}
+
+.Testimonal .slide {
+    max-width: 85%;
+    margin: auto;
+    height: 500px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    transform: all 0.3s linear;
+}
+
+.Testimonal .slide_button {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.Testimonal .slide_button .prev_btn {
+    margin-right: 30px;
+}
+
+article .activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+article.lastSlide {
+    transform: translateX(-100%);
+}
+
+article.nextSlide {
+    transform: translateX(100%);
 }
