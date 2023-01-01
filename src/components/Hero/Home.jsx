@@ -14,19 +14,21 @@ const Home = () => {
           <div className="left top">
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I'm <span>Jone Lee</span>
+              Hi, I'm <span>Anish Pokharel</span>
             </h1>
             <h2>
-              a
+              and
               <span>
-                <TypeWriter typing={2}>Hello World!</TypeWriter>
+                <TypeWriter typing={2}> Frontend- dev</TypeWriter>
               </span>
             </h2>
 
             <p>
-              I use animation as a third dimension by which to simplify
-              experiences and kuiding thro each and every interaction. I’m not
-              adding motion just to spruce things up, but doing it in ways that.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              fugit! Officiis dolor nihil odio, inventore, in libero rerum
+              corrupti recusandae placeat, facere eveniet eos adipisci
+              consequatur obcaecati ratione! Reiciendis temporibus id
+              reprehenderit praesentium eos?
             </p>
 
             <div className="hero_btn d_flex">

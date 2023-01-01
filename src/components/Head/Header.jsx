@@ -9,9 +9,7 @@ const Header = () => {
     <>
       <header className="header">
         <div className="container d_flex">
-          <div className="logo">
-            <img src={logo} alt="" />
-          </div>
+          <div className="logo">{/* <img src={logo} alt="" /> */}</div>
 
           <div className="navlink">
             <ul
