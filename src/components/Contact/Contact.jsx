@@ -44,15 +44,15 @@ const Contact = () => {
                   <img src={contact1} alt="" />
                 </div>
                 <div className="details">
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
+                  <h1>Anish Pokharel</h1>
+                  <p>React </p>
                   <p>
                     I am available for freelance work. Connect with me via and
                     call in to my account.
                   </p>
                   <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <p>Phone: +977-9867419921</p>
+                  <p>Email: anish.pokharel.710.ap@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className="button f_flex">
                     <button className="btn_shadow">
